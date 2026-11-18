@@ -1,4 +1,4 @@
-
+// funtionality of all code 
 document.addEventListener('DOMContentLoaded', function () {
     const userProfile  = document.getElementById('userProfile');
     const userDropdown = document.getElementById('userDropdown');
