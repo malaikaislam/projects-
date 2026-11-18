@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITIRR — Drive, Fly, Sail — Luxury Rentals in One Tap</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Flatpickr CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Trad:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Trad:wght@100..400&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Trad:wght@100..400&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/media.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+    <div class="container">
+        <div class="maincontent">
+
+            <!-- ✅ Naya: Hamburger + Logo ek group mein -->
+            <div class="left-group">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mycanvas" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="logo">
+                    <img src="images/logo.png" alt="iTIRR Logo">
+                </div>
+            </div>
+
+            <div class="content">
+                <!-- Desktop Navbar (sirf nav links, hamburger yahan se hat gaya) -->
+                <div class="navbar">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                                <!-- Cars Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Cars</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Mainstream / Everyday Cars</h6><ul>
+                                                <li><a href="#">Nissan</a></li><li><a href="#">Ford</a></li><li><a href="#">Hyundai</a></li><li><a href="#">Toyota</a></li><li><a href="#">Kia</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Premium / Upper-Mid Range</h6><ul>
+                                                <li><a href="#">Tesla Motors</a></li><li><a href="#">Volkswagen</a></li><li><a href="#">Honda</a></li><li><a href="#">Subaru</a></li><li><a href="#">Mazda</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Luxury</h6><ul>
+                                                <li><a href="#">BMW</a></li><li><a href="#">Mercedes-Benz</a></li><li><a href="#">Lexus</a></li><li><a href="#">Audi</a></li><li><a href="#">Jaguar</a></li>
+                                            </ul></div>
+                                            <div class="mega-col first-one"><h6>High-Performance/Exotic</h6><ul>
+                                                <li><a href="#">Porsche</a></li><li><a href="#">Ferrari</a></li><li><a href="#">Jeep</a></li><li><a href="#">Chevrolet</a></li><li><a href="#">Peugeot</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Yachts Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Yachts</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Compact</h6><ul>
+                                                <li><a href="#">Sea-Doo</a></li><li><a href="#">Ocean Cruiser</a></li><li><a href="#">Wave Runner</a></li><li><a href="#">Harbor Master</a></li><li><a href="#">Nautical Voyager</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Sailboat</h6><ul>
+                                                <li><a href="#">Sunseeker</a></li><li><a href="#">Keyliner</a></li><li><a href="#">Riviera</a></li><li><a href="#">Catalina</a></li><li><a href="#">Cobalt</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Fishing Boat</h6><ul>
+                                                <li><a href="#">Tracker</a></li><li><a href="#">Lund</a></li><li><a href="#">Grady-White</a></li><li><a href="#">Boston Whaler</a></li><li><a href="#">Regulator</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Luxury Yacht</h6><ul>
+                                                <li><a href="#">Azimut</a></li><li><a href="#">Sunseeker</a></li><li><a href="#">Princess</a></li><li><a href="#">Feadship</a></li><li><a href="#">Sanlorenzo</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Jets Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Jets</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Light</h6><ul>
+                                                <li><a href="#">Cessna Aircraft</a></li><li><a href="#">Cessna Tourism</a></li><li><a href="#">Embraer Phenom</a></li><li><a href="#">Honda Aircraft</a></li><li><a href="#">Pilatus</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Mid</h6><ul>
+                                                <li><a href="#">Cessna</a></li><li><a href="#">Embraer</a></li><li><a href="#">Beechcraft</a></li><li><a href="#">Bombardier Learjet</a></li><li><a href="#">Gulfstream G280</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Super</h6><ul>
+                                                <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Challenger</a></li><li><a href="#">Dassault Aviation</a></li><li><a href="#">Embraer Praetor</a></li><li><a href="#">Cessna Citation</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Large</h6><ul>
+                                                <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Global</a></li><li><a href="#">Dassault Falcon</a></li><li><a href="#">Airbus Corporate</a></li><li><a href="#">Boeing Business</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Destinations Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Destinations</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Europe</h6><ul>
+                                                <li><a href="#">Paris, France</a></li><li><a href="#">London, UK</a></li><li><a href="#">Monaco</a></li><li><a href="#">Rome, Italy</a></li><li><a href="#">Barcelona, Spain</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Middle East &amp; Asia</h6><ul>
+                                                <li><a href="#">Dubai, UAE</a></li><li><a href="#">Abu Dhabi, UAE</a></li><li><a href="#">Singapore</a></li><li><a href="#">Tokyo, Japan</a></li><li><a href="#">Bali, Indonesia</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Americas</h6><ul>
+                                                <li><a href="#">New York, USA</a></li><li><a href="#">Miami, USA</a></li><li><a href="#">Los Angeles, USA</a></li><li><a href="#">Cancun, Mexico</a></li><li><a href="#">Rio de Janeiro</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Exotic &amp; Islands</h6><ul>
+                                                <li><a href="#">Maldives</a></li><li><a href="#">Santorini</a></li><li><a href="#">Swiss Alps</a></li><li><a href="#">Fiji Islands</a></li><li><a href="#">Seychelles</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- Mobile Offcanvas Menu (mega menu content ke saath) -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="mycanvas">
+                    <div class="offcanvas-header">
+                        <img src="images/logo.png" alt="" class="offcanvas-title">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Cars</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner firstone">
+                                        <div class="mega-col"><h6>Mainstream / Everyday Cars</h6><ul>
+                                            <li><a href="#">Nissan</a></li><li><a href="#">Ford</a></li><li><a href="#">Hyundai</a></li><li><a href="#">Toyota</a></li><li><a href="#">Kia</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Premium / Upper-Mid Range</h6><ul>
+                                            <li><a href="#">Tesla Motors</a></li><li><a href="#">Volkswagen</a></li><li><a href="#">Honda</a></li><li><a href="#">Subaru</a></li><li><a href="#">Mazda</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Luxury</h6><ul>
+                                            <li><a href="#">BMW</a></li><li><a href="#">Mercedes-Benz</a></li><li><a href="#">Lexus</a></li><li><a href="#">Audi</a></li><li><a href="#">Jaguar</a></li>
+                                        </ul></div>
+                                        <div class="mega-col fitst-one"><h6>High-Performance/Exotic</h6><ul>
+                                            <li><a href="#">Porsche</a></li><li><a href="#">Ferrari</a></li><li><a href="#">Jeep</a></li><li><a href="#">Chevrolet</a></li><li><a href="#">Peugeot</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Yachts</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Compact</h6><ul>
+                                            <li><a href="#">Sea-Doo</a></li><li><a href="#">Ocean Cruiser</a></li><li><a href="#">Wave Runner</a></li><li><a href="#">Harbor Master</a></li><li><a href="#">Nautical Voyager</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Sailboat</h6><ul>
+                                            <li><a href="#">Sunseeker</a></li><li><a href="#">Keyliner</a></li><li><a href="#">Riviera</a></li><li><a href="#">Catalina</a></li><li><a href="#">Cobalt</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Fishing Boat</h6><ul>
+                                            <li><a href="#">Tracker</a></li><li><a href="#">Lund</a></li><li><a href="#">Grady-White</a></li><li><a href="#">Boston Whaler</a></li><li><a href="#">Regulator</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Luxury Yacht</h6><ul>
+                                            <li><a href="#">Azimut</a></li><li><a href="#">Sunseeker</a></li><li><a href="#">Princess</a></li><li><a href="#">Feadship</a></li><li><a href="#">Sanlorenzo</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Jets</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Light</h6><ul>
+                                            <li><a href="#">Cessna Aircraft</a></li><li><a href="#">Cessna Tourism</a></li><li><a href="#">Embraer Phenom</a></li><li><a href="#">Honda Aircraft</a></li><li><a href="#">Pilatus</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Mid</h6><ul>
+                                            <li><a href="#">Cessna</a></li><li><a href="#">Embraer</a></li><li><a href="#">Beechcraft</a></li><li><a href="#">Bombardier Learjet</a></li><li><a href="#">Gulfstream G280</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Super</h6><ul>
+                                            <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Challenger</a></li><li><a href="#">Dassault Aviation</a></li><li><a href="#">Embraer Praetor</a></li><li><a href="#">Cessna Citation</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Large</h6><ul>
+                                            <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Global</a></li><li><a href="#">Dassault Falcon</a></li><li><a href="#">Airbus Corporate</a></li><li><a href="#">Boeing Business</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Destinations</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Europe</h6><ul>
+                                            <li><a href="#">Paris, France</a></li><li><a href="#">London, UK</a></li><li><a href="#">Monaco</a></li><li><a href="#">Rome, Italy</a></li><li><a href="#">Barcelona, Spain</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Middle East &amp; Asia</h6><ul>
+                                            <li><a href="#">Dubai, UAE</a></li><li><a href="#">Abu Dhabi, UAE</a></li><li><a href="#">Singapore</a></li><li><a href="#">Tokyo, Japan</a></li><li><a href="#">Bali, Indonesia</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Americas</h6><ul>
+                                            <li><a href="#">New York, USA</a></li><li><a href="#">Miami, USA</a></li><li><a href="#">Los Angeles, USA</a></li><li><a href="#">Cancun, Mexico</a></li><li><a href="#">Rio de Janeiro</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Exotic &amp; Islands</h6><ul>
+                                            <li><a href="#">Maldives</a></li><li><a href="#">Santorini</a></li><li><a href="#">Swiss Alps</a></li><li><a href="#">Fiji Islands</a></li><li><a href="#">Seychelles</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Vertical Divider -->
+                <div class="solid-rectangle"></div>
+
+                <!-- Partner Button -->
+                <a href="#" class="btn-partner">Become a Partner</a>
+
+                <!-- User Profile Dropdown -->
+                <div class="user-profile" id="userProfile">
+                    <img src="images/sideimg.png" class="user-image" id="userImg" alt="User">
+                    <span class="user-name" id="userName">William Gabriel</span>
+                    <span class="dropdown-arrow"><i class="fa-solid fa-angle-down"></i></span>
+
+                    <div class="user-dropdown" id="userDropdown">
+                        <a href="#" data-name="William Gabriel" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> William Gabriel
+                        </a>
+                        <a href="#" data-name="Ahmed Khan" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> Ahmed Khan
+                        </a>
+                        <a href="#" data-name="Sara Ali" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> Sara Ali
+                        </a>
+                        <a href="#" data-name="John Doe" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> John Doe
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+ <section class="hero-wrapper d-flex flex-column justify-content-center align-items-center text-center">
+    <div class="container hero-inner-container position-relative z-2">
+      
+      <!-- Main Heading & Subtitle -->
+      <h1 class="hero-heading mb-2">Drive, Fly, Sail — Luxury Rentals in One Tap</h1>
+      <p class="hero-subheading mb-4">Premium cars, private jets, and yachts — Book from anywhere in the world.</p>
+
+      <!-- Category Tabs (Cars, Private Jets, Boats & Yachts) -->
+      <div class="category-tabs-wrapper d-inline-flex justify-content-center gap-2 mb-3" role="tablist">
+        <button type="button" class="category-tab-btn active" data-category="Cars">Cars</button>
+        <button type="button" class="category-tab-btn" data-category="Private Jets">Private Jets</button>
+        <button type="button" class="category-tab-btn" data-category="Boats & Yachts">Boats&Yachts</button>
+      </div>
+
+      <!-- Main White Booking Card -->
+      <div class="booking-card-box mx-auto">
+        <form id="luxuryBookingForm" class="row g-3 align-items-end text-start" novalidate>
+          
+          <!-- 1. Pickup Address -->
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <label for="pickupAddressInput" class="booking-label">Pickup Address</label>
+            <div class="custom-select-wrapper position-relative">
+              <input 
+                type="text" 
+                id="pickupAddressInput" 
+                class="form-control booking-input pe-5" 
+                placeholder="Pickup Address" 
+                readonly 
+                required 
+              />
+              <i class="bi bi-chevron-down input-end-icon"></i>
+              <ul class="custom-options-menu list-unstyled shadow">
+                <li><button type="button" class="option-item" data-value="Miami, Florida">Miami, Florida</button></li>
+                <li><button type="button" class="option-item" data-value="Aspen, Colorado">Aspen, Colorado</button></li>
+                <li><button type="button" class="option-item" data-value="Nashville, Tennessee">Nashville, Tennessee</button></li>
+                <li><button type="button" class="option-item" data-value="Sedona, Arizona">Sedona, Arizona</button></li>
+                <li><button type="button" class="option-item" data-value="Savannah, Georgia">Savannah, Georgia</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 2. Select Destination -->
+          <div class="col-xl-3 col-lg-3 col-md-6">
+            <label for="destinationAddressInput" class="booking-label">Select Destination</label>
+            <div class="custom-select-wrapper position-relative">
+              <input 
+                type="text" 
+                id="destinationAddressInput" 
+                class="form-control booking-input pe-5" 
+                placeholder="Enter Destination Address" 
+                readonly 
+                required 
+              />
+              <!-- <i class="bi bi-chevron-down input-end-icon"></i> -->
+              <ul class="custom-options-menu list-unstyled shadow">
+                <li><button type="button" class="option-item" data-value="Paris, France">Paris, France</button></li>
+                <li><button type="button" class="option-item" data-value="Tokyo, Japan">Tokyo, Japan</button></li>
+                <li><button type="button" class="option-item" data-value="Barcelona, Spain">Barcelona, Spain</button></li>
+                <li><button type="button" class="option-item" data-value="Rome, Italy">Rome, Italy</button></li>
+                <li><button type="button" class="option-item" data-value="Dubai, UAE">Dubai, UAE</button></li>
+                <li><button type="button" class="option-item" data-value="New York, USA">New York, USA</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 3. Select Date (Day, Month, Year Calendar) -->
+          <div class="col-xl-2 col-lg-2 col-md-4">
+            <label for="bookingDateInput" class="booking-label">Select Date</label>
+            <div class="position-relative">
+              <input 
+                type="text" 
+                id="bookingDateInput" 
+                class="form-control booking-input pe-5" 
+                placeholder="dd-mm-yyyy" 
+                autocomplete="off"
+                required 
+              />
+              <i class="bi bi-calendar4-event input-end-icon clickable-icon" id="calendarTriggerBtn"></i>
+            </div>
+          </div>
+
+          <!-- 4. Select Time (Hours & Minutes) -->
+          <div class="col-xl-2 col-lg-2 col-md-4">
+            <label for="bookingTimeInput" class="booking-label">Select Time</label>
+            <div class="custom-select-wrapper position-relative">
+              <input 
+                type="text" 
+                id="bookingTimeInput" 
+                class="form-control booking-input pe-5" 
+                placeholder="hh-mm" 
+                readonly 
+                required 
+              />
+              <i class="bi bi-clock input-end-icon"></i>
+              <ul class="custom-options-menu list-unstyled shadow">
+                <li><button type="button" class="option-item" data-value="08:00 AM">08:00 AM</button></li>
+                <li><button type="button" class="option-item" data-value="09:30 AM">09:30 AM</button></li>
+                <li><button type="button" class="option-item" data-value="11:00 AM">11:00 AM</button></li>
+                <li><button type="button" class="option-item" data-value="12:30 PM">12:30 PM</button></li>
+                <li><button type="button" class="option-item" data-value="02:00 PM">02:00 PM</button></li>
+                <li><button type="button" class="option-item" data-value="04:30 PM">04:30 PM</button></li>
+                <li><button type="button" class="option-item" data-value="07:00 PM">07:00 PM</button></li>
+                <li><button type="button" class="option-item" data-value="09:30 PM">09:30 PM</button></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 5. Book Now Button -->
+          <div class="col-xl-2 col-lg-2 col-md-4 d-grid">
+            <button type="submit" class="btn booking-submit-btn">Book Now</button>
+          </div>
+
+        </form>
+      </div>
+
+      <!-- Trust Line Below Booking Bar -->
+      <p class="trust-tagline mt-3 mb-0">
+        Trusted by 50,000+ travelers <span class="mx-1">|</span> Verified partners only <span class="mx-1">|</span> 24/7 concierge support
+      </p>
+
+    </div>
+  </section>
+
+
+
+<!-- ==================== TRENDING THIS WEEK SECTION ==================== -->
+<section class="trending-section p-5">
+  <div class="container">
+    
+    <!-- Section Header -->
+    <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-2">
+      <div>
+        <h2 class="section-heading mb-1">Trending This Week</h2>
+        <p class="section-subtext mb-0">Premium cars, private jets, and yachts — Book from anywhere in the world.</p>
+      </div>
+      <a href="#" class="btn btn-see-all-custom">
+        See All <i class="bi bi-arrow-right arrowright ms-1"></i>
+      </a>
+    </div>
+
+    <!-- Filter Tabs (ALL, CARS, PRIVATE JETS, BOATS) -->
+    <div class="trending-tabs d-flex gap-4 mb-4" role="tablist">
+      <button type="button" class="trend-tab-btn active" data-filter="all">ALL</button>
+      <button type="button" class="trend-tab-btn" data-filter="car">CARS</button>
+      <button type="button" class="trend-tab-btn" data-filter="jet">PRIVATE JETS</button>
+      <button type="button" class="trend-tab-btn" data-filter="boat">BOATS</button>
+    </div>
+    <hr>
+    <!-- Cards Scroll Container (Grid on desktop, Horizontal Scroll on mobile/tablet) -->
+    <div class="trending-scroll-container">
+      <div class="row g-4 trending-grid mt-4" id="trendingCardsGrid">
+
+        <!-- Card 1: Jet -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="jet">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&w=800&q=80" alt="Bombardier Global" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Bombardier Global</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Boat / Yacht -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="boat">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=800&q=80" alt="Azimut Grande 27" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Azimut Grande 27</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1499/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Car -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="car">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80" alt="Aston Martin DB11" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Aston Martin DB11</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $999/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Car -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="car">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=800&q=80" alt="Ferrari F8 Tributo" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Ferrari F8 Tributo</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1249/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Car -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="car">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=800&q=80" alt="Lamborghini Huracán" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Lamborghini Huracán</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1129/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Jet -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="jet">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1569154941061-e231b4725ef1?auto=format&fit=crop&w=800&q=80" alt="Gulfstream G650" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Gulfstream G650</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: Boat / Yacht -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="boat">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" alt="Pershing 70" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">Pershing 70</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: Car -->
+        <div class="col-lg-3 col-md-6 trending-item" data-category="car">
+          <div class="trend-card">
+            <span class="trend-location-badge">Canada</span>
+            <button class="trend-fav-btn"><i class="bi bi-heart-fill"></i></button>
+            <div class="trend-img-box">
+              <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80" alt="McLaren 720S" />
+            </div>
+            <div class="trend-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="trend-item-title mb-0">McLaren 720S</h5>
+                <span class="trend-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="trend-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn trend-action-btn">From $1219/Day</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="explore-categories-section py-5">
+  <div class="container explore-container">
+    
+    <!-- Section Header (Title, Subtitle & Arrows) -->
+    <div class="d-flex justify-content-between align-items-end mb-4 explore-header-flex">
+      <div>
+        <h2 class="section-title mb-1">Explore Categories</h2>
+        <p class="section-subtitle mb-0">Premium cars, private jets, and yachts — Book from anywhere in the world.</p>
+      </div>
+      <!-- Slider Arrows -->
+      <div class="slider-arrows-wrapper d-flex gap-2">
+        <button type="button" class="arrow-btn" id="scrollLeftBtn" aria-label="Previous">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button type="button" class="arrow-btn " id="scrollRightBtn" aria-label="Next">
+          <i class="bi bi-arrow-right active"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards Scrollable Track Container -->
+    <div class="explore-cards-track-wrapper" id="cardsScrollContainer">
+      <div class="explore-cards-track">
+        
+        <!-- Card 1 (Luxury Cars - Active/Filled State) -->
+        <div class="explore-card">
+          <div class="card-icon-box">
+            <img src="images/carimg.png" alt="">
+          </div>
+          <h3 class="explore-card-title">Luxury Cars</h3>
+          <p class="explore-card-desc">Cruise in prestige. Choose from elite sedans, exotic supercars, &amp; high-end SUVs — tailored for status &amp; speed.</p>
+          <a href="#" class="explore-btn outline-btn mt-auto">Explore More</a>
+        </div>
+
+        <!-- Card 2 (Private Jets) -->
+        <div class="explore-card">
+          <div class="card-icon-box">
+           <img src="images/jatimg.png" alt="">
+          </div>
+          <h3 class="explore-card-title">Private Jets</h3>
+          <p class="explore-card-desc">Redefine air travel. Access global skies with ultra-luxury jets offering privacy, performance, &amp; elite service.</p>
+          <a href="#" class="explore-btn outline-btn mt-auto">Explore More</a>
+        </div>
+
+        <!-- Card 3 (Yacht & Boats) -->
+        <div class="explore-card">
+          <div class="card-icon-box">
+            <img src="images/yardimh.png" alt="">
+          </div>
+          <h3 class="explore-card-title">Yacht &amp; Boats</h3>
+          <p class="explore-card-desc">Sail in style. From coastal cruisers to ocean superyachts — curated for comfort and class.</p>
+          <a href="#" class="explore-btn outline-btn mt-auto">Explore More</a>
+        </div>
+
+        <!-- Card 4 (Chauffeur Services) -->
+        <div class="explore-card">
+          <div class="card-icon-box">
+            <img src="images/spingimg.png" alt="">
+          </div>
+          <h3 class="explore-card-title">Chauffeur Services</h3>
+          <p class="explore-card-desc">Arrive like royalty. Experience professional drivers, luxury vehicles, and stress-free city transportation.</p>
+          <a href="#" class="explore-btn outline-btn mt-auto">Explore More</a>
+        </div>
+
+        <!-- Card 5 (VIP Packages) -->
+        <div class="explore-card">
+          <div class="card-icon-box">
+           <img src="images/vipimg.png" alt="">
+          </div>
+          <h3 class="explore-card-title">VIP Packages</h3>
+          <p class="explore-card-desc">All-inclusive elite curation. Tailored itineraries with private security, VIP access, and premium hospitality.</p>
+          <a href="#" class="explore-btn outline-btn mt-auto">Explore More</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== OUR HANDPICKED LUXURY RIDES SECTION ==================== -->
+<section class="handpicked-section py-5">
+  <div class="handpicked-container">
+    
+    <!-- Section Header with Navigation Arrows -->
+    <div class="d-flex justify-content-between align-items-end mb-4 flex-wrap gap-2 px-3 px-lg-5">
+      <div>
+        <h2 class="handpicked-heading mb-1">Our Handpicked Luxury Rides</h2>
+        <p class="handpicked-subtext mb-0">Premium cars, private jets, and yachts — Book from anywhere in the world.</p>
+      </div>
+      <!-- Scroll Arrow Buttons -->
+      <div class="handpicked-nav-btns d-flex gap-2">
+        <button type="button" id="handpickedScrollLeft" class="handpicked-arrow-btn" aria-label="Scroll Left">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button type="button" id="handpickedScrollRight" class="handpicked-arrow-btn" aria-label="Scroll Right">
+          <i class="bi bi-arrow-right active"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards Scroll Container (X-Axis Scrollable for all screens including 1800px+) -->
+    <div class="handpicked-scroll-wrapper" id="handpickedScrollWrapper">
+      <div class="handpicked-cards-row">
+
+        <!-- Card 1 -->
+        <div class="handpicked-card-item">
+          <div class="handpicked-card">
+            <span class="handpicked-badge">Hot Rides</span>
+            <button class="handpicked-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <div class="handpicked-img-box">
+              <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=800&q=80" alt="Lamborghini Huracán" />
+            </div>
+            <div class="handpicked-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="handpicked-item-title mb-0">Lamborghini Huracán</h5>
+                <span class="handpicked-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="handpicked-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn handpicked-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="handpicked-card-item">
+          <div class="handpicked-card">
+            <span class="handpicked-badge">Hot Rides</span>
+            <button class="handpicked-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <div class="handpicked-img-box">
+              <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&w=800&q=80" alt="Gulfstream G650" />
+            </div>
+            <div class="handpicked-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="handpicked-item-title mb-0">Gulfstream G650</h5>
+                <span class="handpicked-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="handpicked-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn handpicked-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="handpicked-card-item">
+          <div class="handpicked-card">
+            <span class="handpicked-badge">Hot Rides</span>
+            <button class="handpicked-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <div class="handpicked-img-box">
+              <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=800&q=80" alt="Pershing 70" />
+            </div>
+            <div class="handpicked-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="handpicked-item-title mb-0">Pershing 70</h5>
+                <span class="handpicked-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="handpicked-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn handpicked-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="handpicked-card-item">
+          <div class="handpicked-card">
+            <span class="handpicked-badge">Hot Rides</span>
+            <button class="handpicked-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <div class="handpicked-img-box">
+              <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80" alt="McLaren 720S" />
+            </div>
+            <div class="handpicked-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="handpicked-item-title mb-0">McLaren 720S</h5>
+                <span class="handpicked-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="handpicked-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn handpicked-action-btn">From $1799/Day</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="handpicked-card-item">
+          <div class="handpicked-card">
+            <span class="handpicked-badge">Hot Rides</span>
+            <button class="handpicked-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <div class="handpicked-img-box">
+              <img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=800&q=80" alt="Azimut Grande 27" />
+            </div>
+            <div class="handpicked-card-body">
+              <div class="d-flex justify-content-between align-items-center mb-1">
+                <h5 class="handpicked-item-title mb-0">Azimut Grande 27</h5>
+                <span class="handpicked-rating"><i class="bi bi-star-fill text-warning me-1"></i>4.8</span>
+              </div>
+              <p class="handpicked-item-desc">Access Private jet—on-demand and from anywhere in the world.</p>
+              <button class="btn handpicked-action-btn">From $1499/Day</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== LUXURY EXPERIENCE HIGHLIGHTS SECTION ==================== -->
+
+
+<section class="highlights-section py-5">
+    <div class="container highlights-container">
+      <div class="row align-items-center g-5">
+        
+        <!-- LEFT COLUMN: 4-Image Staggered Collage + Center Circular Play Badge -->
+        <div class="col-lg-6">
+          <div class="collage-wrapper position-relative mx-auto">
+            
+            <div class="row g-3">
+              <!-- Left Image Column (Slightly Higher) -->
+              <div class="col-6 d-flex flex-column gap-3 collage-col-left">
+                <div class="collage-img-card">
+                  <img 
+                    src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=800&q=80" 
+                    alt="Blue Supercar" 
+                    class="img-fluid" 
+                  />
+                </div>
+                <div class="collage-img-card">
+                  <img 
+                    src="https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=800&q=80" 
+                    alt="White Luxury Sports Car" 
+                    class="img-fluid" 
+                  />
+                </div>
+              </div>
+
+              <!-- Right Image Column (Slightly Lower / Staggered) -->
+              <div class="col-6 d-flex flex-column gap-3 collage-col-right">
+                <div class="collage-img-card">
+                  <img 
+                    src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?auto=format&fit=crop&w=800&q=80" 
+                    alt="Luxury Yacht" 
+                    class="img-fluid" 
+                  />
+                </div>
+                <div class="collage-img-card">
+                  <img 
+                    src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&w=800&q=80" 
+                    alt="Private Jet" 
+                    class="img-fluid" 
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Center Circular "Play It" Button with Curved Text -->
+            <button type="button" class="play-circle-badge" id="openVideoModalBtn" aria-label="Play Luxury Showcase Video">
+              <svg viewBox="0 0 100 100" class="circular-text-svg">
+                <defs>
+                  <path id="circlePath" d="M 50, 50 m -36, 0 a 36,36 0 1,1 72,0 a 36,36 0 1,1 -72,0" />
+                </defs>
+                <text fill="#ffffff" font-size="10.2" font-weight="600" letter-spacing="1.7">
+                  <textPath href="#circlePath" startOffset="0%">
+                    • Play It • Play It • Play It
+                  </textPath>
+                </text>
+              </svg>
+              <span class="play-triangle-icon">
+                <i class="bi bi-play-fill"></i>
+              </span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: Heading, Subtitle & 5 Features -->
+        <div class="col-lg-6">
+          <div class="highlights-content ps-lg-3">
+            <span class="highlights-kicker">Seamless Service. Global Standards.</span>
+            <h2 class="highlights-heading mt-2 mb-3">Luxury Experience Highlights</h2>
+            <p class="highlights-subtext mb-4">
+              Luxury made easy — trusted rentals, instant booking, global access, and concierge perks.
+            </p>
+
+            <!-- 5 Features Grid -->
+            <div class="row g-4 mt-1">
+              
+              <!-- Feature 1 -->
+              <div class="col-sm-6">
+                <div class="feature-item d-flex align-items-start gap-3">
+                  <div class="feature-icon-circle">
+                    <i class="bi bi-patch-check"></i>
+                  </div>
+                  <div>
+                    <h4 class="feature-title">Verified Rentals</h4>
+                    <p class="feature-desc mb-0">Trustworthy, vetted luxury vehicles</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 2 -->
+              <div class="col-sm-6">
+                <div class="feature-item d-flex align-items-start gap-3">
+                  <div class="feature-icon-circle">
+                    <i class="bi bi-hand-index-thumb"></i>
+                  </div>
+                  <div>
+                    <h4 class="feature-title">Instant Booking</h4>
+                    <p class="feature-desc mb-0">Reserve in seconds, no delays</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 3 -->
+              <div class="col-sm-6">
+                <div class="feature-item d-flex align-items-start gap-3">
+                  <div class="feature-icon-circle">
+                    <i class="bi bi-person-workspace"></i>
+                  </div>
+                  <div>
+                    <h4 class="feature-title">Concierge Add-ons</h4>
+                    <p class="feature-desc mb-0">Tailored extras at your service</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 4 -->
+              <div class="col-sm-6">
+                <div class="feature-item d-flex align-items-start gap-3">
+                  <div class="feature-icon-circle">
+                    <i class="bi bi-globe2"></i>
+                  </div>
+                  <div>
+                    <h4 class="feature-title">Global Reach</h4>
+                    <p class="feature-desc mb-0">Available wherever you go</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 5 -->
+              <div class="col-sm-6">
+                <div class="feature-item d-flex align-items-start gap-3">
+                  <div class="feature-icon-circle">
+                    <i class="bi bi-credit-card-2-front"></i>
+                  </div>
+                  <div>
+                    <h4 class="feature-title">Easy Payments</h4>
+                    <p class="feature-desc mb-0">Secure, hassle-free checkout</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Modal (Opens when clicking "Play It" circle) -->
+  <div class="modal fade" id="luxuryVideoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark border-0 rounded-4 overflow-hidden">
+        <div class="modal-header border-0 pb-0">
+          <button type="button" class="btn-close btn-close-white ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-3">
+          <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+            <iframe 
+              id="showcaseVideoFrame" 
+              src="" 
+              title="Luxury Experience Showcase" 
+              allow="autoplay; encrypted-media" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- ==================== ARRIVE IN STYLE SLIDER SECTION ==================== -->
+<section class="arrive-section py-5">
+  <div class="arrive-container" id="arriveSliderContainer">
+    <div class="row align-items-center justify-content-between g-4">
+      
+      <!-- LEFT COLUMN: Dynamic Content & Arrows -->
+      <div class="col-lg-6">
+        <div class="arrive-content-box">
+          <span class="arrive-tag" id="arriveTag">Luxury Experience Highlights</span>
+          <h1 class="arrive-heading my-2" id="arriveHeading">Arrive in Style — Rent the World's Finest Cars</h1>
+          <p class="arrive-desc mb-4" id="arriveDesc">From sleek sports cars to executive sedans, access a curated fleet of premium vehicles at your fingertips. Wherever you are, drive luxury without compromise.</p>
+          
+          <!-- Navigation Arrow Buttons -->
+          <div class="arrive-nav-btns d-flex gap-2">
+            <button type="button" id="arrivePrevBtn" class="arrive-arrow-btn" aria-label="Previous Slide">
+              <i class="bi bi-arrow-left"></i>
+            </button>
+            <button type="button" id="arriveNextBtn" class="arrive-arrow-btn" aria-label="Next Slide">
+              <i class="bi bi-arrow-right active"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Dynamic Car Image -->
+      <div class="col-lg-6">
+        <div class="arrive-img-box text-center text-lg-end">
+          <img src="images/blackcar.png" id="arriveCarImage" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== WHAT TRUSTED CLIENT SAYS SECTION ==================== -->
+<section class="testimonials-section p-5">
+  <div class="container testimonials-container">
+    
+    <!-- Section Header -->
+    <div class="mb-4">
+      <span class="testimonials-tag">Voices of Trust</span>
+      <h2 class="testimonials-main-title">What Trusted Client Says</h2>
+      <p class="testimonials-subtitle">Real stories from those who ride in style.</p>
+    </div>
+
+    <div class="row align-items-center justify-content-between">
+      
+      <!-- LEFT COLUMN: Client List Cards -->
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="clients-list-wrapper d-flex flex-column gap-3" id="clientsList">
+          
+          <!-- Client 1 -->
+          <div class="client-card" data-index="0">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Emily Johnson" class="client-avatar" />
+            <div class="client-info">
+              <h5 class="client-name mb-0">Emily Johnson</h5>
+              <p class="client-loc mb-0">Austin, Texas</p>
+            </div>
+          </div>
+
+          <!-- Client 2 -->
+          <div class="client-card" data-index="1">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Michael Smith" class="client-avatar" />
+            <div class="client-info">
+              <h5 class="client-name mb-0">Michael Smith</h5>
+              <p class="client-loc mb-0">Denver, Colorado</p>
+            </div>
+          </div>
+
+          <!-- Client 3 -->
+          <div class="client-card" data-index="2">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Jessica Brown" class="client-avatar" />
+            <div class="client-info">
+              <h5 class="client-name mb-0">Jessica Brown</h5>
+              <p class="client-loc mb-0">Seattle, Washington</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Dynamic Review Display Box -->
+      <div class="col-lg-6">
+        <div class="review-display-box" id="reviewBox">
+          <h3 class="review-author-title mb-2" id="reviewAuthorTitle">Emily Johnson - Austin, Texas</h3>
+          
+          <!-- Star Ratings -->
+          <div class="rating-stars mb-3" id="ratingStars">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+
+          <p class="review-text mb-0" id="reviewText">
+            "The private jet service exceeded expectations in every possible way. Booking was incredibly smooth, the team was extremely helpful throughout, and every detail — from ground transport to in-flight concierge — was handled with precision and care. ITIRR made us feel confident, supported, and truly valued. A five-star experience that builds real trust."
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== BOOK ANYWHERE, ANYTIME SECTION ==================== -->
+<section class="app-download-section py-5">
+  <div class="container app-container">
+    <div class="row align-items-center justify-content-between">
+      
+      <!-- LEFT COLUMN: Content & Download Buttons -->
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="app-content-box">
+          <span class="app-tag">Luxury on Demand</span>
+          <h2 class="app-heading my-2">Book Anywhere, Anytime</h2>
+          <p class="app-desc mb-4">
+            Book luxury cars, private jets, and yachts on the go. With real-time availability, instant booking, and 24/7 support — our app puts premium travel at your fingertips, anywhere in the world.
+          </p>
+          
+          <!-- Store Buttons -->
+          <div class="app-store-btns d-flex flex-wrap gap-3">
+            <a href="#" class="store-btn d-flex align-items-center gap-2">
+              <i class="bi bi-apple fs-4"></i>
+              <div class="text-start">
+                <span class="fw-bold" style="font-size: 13px;">Apple Store</span>
+              </div>
+            </a>
+            
+            <a href="#" class="store-btn d-flex align-items-center gap-2">
+              <i class="bi bi-google-play fs-5"></i>
+              <div class="text-start">
+                <span class="fw-bold" style="font-size: 13px;">Playstore</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT COLUMN: Purple Circle & 4 Mobile Mockups -->
+      <div class="col-lg-6 text-center">
+        <div class="app-mockup-wrapper">
+          <div class="purple-circle-bg"></div>
+          
+          <div class="phones-container">
+            <img src="images/mobile.png" alt="Phone 1" class="phone-mockup phone-1" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ==================== EXPLORE RENTALS BY DESTINATION SECTION ==================== -->
+<!-- ==================== EXPLORE RENTALS BY DESTINATION SECTION ==================== -->
+<section class="destinations-section py-5">
+  <div class="container-fluid destinations-container">
+    
+    <!-- Section Header with Arrows -->
+    <div class="d-flex justify-content-between align-items-end mb-4 px-lg-5 sectionarrow">
+      <div>
+        <h2 class="destinations-main-title mb-lg-1 mb-sm-1">Explore Rentals by Destination</h2>
+        <p class="destinations-subtitle mb-0">Wherever you go, world-class service travels with you.</p>
+      </div>
+      
+      <!-- Navigation Arrows -->
+      <div class="destination-nav-btns d-flex gap-2">
+        <button class="dest-nav-btn prev-btn" id="prevBtn" aria-label="Previous">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <button class="dest-nav-btn next-btn" id="nextBtn" aria-label="Next">
+          <i class="bi bi-arrow-right active"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Destinations Scrollable Slider Track (X-Axis Scrollable) -->
+    <div class="destinations-slider-wrapper" id="sliderWrapper">
+      <div class="destinations-track" id="destinationsTrack">
+        
+        <!-- Card 1: Lahore -->
+        <div class="destination-card">
+          <div class="dest-img-box">
+            <span class="dest-badge">Trusted</span>
+            <button class="dest-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <img src="https://images.unsplash.com/photo-1584646098378-0874589d76b1?auto=format&fit=crop&w=600&q=80" alt="Lahore" class="dest-img" />
+          </div>
+          <div class="dest-content">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="dest-city mb-0">Lahore</h5>
+              <div class="dest-rating">
+                <i class="bi bi-star-fill text-warning"></i> <span>4.8</span>
+              </div>
+            </div>
+            <p class="dest-desc mb-0">Explore Lahore—where history and luxury converge.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Tokyo -->
+        <div class="destination-card">
+          <div class="dest-img-box">
+            <span class="dest-badge">Popular</span>
+            <button class="dest-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <img src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80" alt="Tokyo" class="dest-img" />
+          </div>
+          <div class="dest-content">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="dest-city mb-0">Tokyo</h5>
+              <div class="dest-rating">
+                <i class="bi bi-star-fill text-warning"></i> <span>4.8</span>
+              </div>
+            </div>
+            <p class="dest-desc mb-0">Explore Tokyo—where history and luxury converge.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Barcelona -->
+        <div class="destination-card">
+          <div class="dest-img-box">
+            <span class="dest-badge">Vibrant</span>
+            <button class="dest-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <img src="https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=600&q=80" alt="Barcelona" class="dest-img" />
+          </div>
+          <div class="dest-content">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="dest-city mb-0">Barcelona</h5>
+              <div class="dest-rating">
+                <i class="bi bi-star-fill text-warning"></i> <span>4.8</span>
+              </div>
+            </div>
+            <p class="dest-desc mb-0">Explore Barcelona—where history and luxury converge.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Rome -->
+        <div class="destination-card">
+          <div class="dest-img-box">
+            <span class="dest-badge">Historic</span>
+            <button class="dest-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=600&q=80" alt="Rome" class="dest-img" />
+          </div>
+          <div class="dest-content">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="dest-city mb-0">Rome</h5>
+              <div class="dest-rating">
+                <i class="bi bi-star-fill text-warning"></i> <span>4.8</span>
+              </div>
+            </div>
+            <p class="dest-desc mb-0">Explore Rome—where history and luxury converge.</p>
+          </div>
+        </div>
+
+        <!-- Card 5: Paris -->
+        <div class="destination-card">
+          <div class="dest-img-box">
+            <span class="dest-badge">Vibrant</span>
+            <button class="dest-fav-btn" aria-label="Favorite"><i class="bi bi-heart-fill"></i></button>
+            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="Paris" class="dest-img" />
+          </div>
+          <div class="dest-content">
+            <div class="d-flex justify-content-between align-items-center mb-1">
+              <h5 class="dest-city mb-0">Paris</h5>
+              <div class="dest-rating">
+                <i class="bi bi-star-fill text-warning"></i> <span>4.8</span>
+              </div>
+            </div>
+            <p class="dest-desc mb-0">Explore Paris—where history and luxury converge.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== LIST YOUR VEHICLE SECTION ==================== -->
+<section class="partner-section py-5">
+  <div class="container partner-container text-center">
+    
+    <!-- Main Title & Subtitle -->
+    <h2 class="partner-main-title mb-2">List Your Vehicle, Jet, or Yacht</h2>
+    <p class="partner-subtitle mb-4">
+      Join a trusted network of verified luxury rental partners. List your car, jet, or yacht and connect with premium clients worldwide.
+    </p>
+
+    <!-- Features List Container -->
+    <div class="partner-features-wrapper d-flex justify-content-center align-items-center flex-wrap gap-4 mb-4">
+      
+      <div class="partner-feature-item">
+       <img src="images/tick.png" alt="" class="feature-icon">
+        <span>Luxury Cars</span>
+      </div>
+
+      <div class="partner-feature-item">
+        <img src="images/tick.png" alt="" class="feature-icon">
+        <span>Yacht & Boats</span>
+      </div>
+
+      <div class="partner-feature-item">
+        <img src="images/tick.png" alt="" class="feature-icon">
+        <span>VIP Packages / Events</span>
+      </div>
+
+      <div class="partner-feature-item">
+       <img src="images/tick.png" alt="" class="feature-icon">
+        <span>Private Jets</span>
+      </div>
+
+      <div class="partner-feature-item">
+       <img src="images/tick.png" alt="" class="features-icon">
+        <span>Chauffeur Services</span>
+      </div>
+
+    </div>
+
+    <!-- Call to Action Button -->
+    <div class="partner-btn-box">
+      <a href="#" class="btn partner-cta-btn" id="partnerBtn">Become a Partner</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==================== FOOTER SECTION ==================== -->
+<footer class="footer-section p-5">
+  <div class="container footer-container">
+    <div class="row gy-4 justify-content-between">
+      
+      <!-- COLUMN 1: Brand Info & Social Icons -->
+      <div class="col-lg-4 col-md-12 footer-col-brand">
+        <div class="footer-brand mb-3">
+         <img src="images/logo.png" alt="">
+        </div>
+        <p class="footer-about-text mb-3">
+          ITIRR is a global luxury rental platform offering premium access to exotic cars, private jets, and high-end yachts. We connect discerning travelers with verified partners across the world — delivering convenience, safety, and elevated service at every touchpoint.
+        </p>
+        <div class="footer-social-icons d-flex gap-3">
+          <a href="#" aria-label="Facebook"><img src="images/simple-icons_facebook.png" alt=""></a>
+          <a href="#" aria-label="Twitter"><img src="images/flowbite_twitter-solid.png" alt=""></a>
+          <a href="#" aria-label="Instagram"><img src="images/formkit_instagram.png" alt=""></a>
+          <a href="#" aria-label="Youtube"><img src="images/mingcute_youtube-fill.png" alt=""></a>
+        </div>
+      </div>
+
+      <!-- COLUMN 2: Company Links -->
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h5 class="footer-heading">COMPANY</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Get a Quote</a></li>
+        </ul>
+      </div>
+
+      <!-- COLUMN 3: Help Links -->
+      <div class="col-lg-2 col-sm-6 col-6">
+        <h5 class="footer-heading">HELP</h5>
+        <ul class="footer-links list-unstyled">
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Customer Support</a></li>
+          <li><a href="#">Partnership</a></li>
+        </ul>
+      </div>
+
+      <!-- COLUMN 4: Newsletter & Payment Badges -->
+      <div class="col-lg-3 col-md-12">
+        <h5 class="footer-heading">NEWSLETTER</h5>
+        <form class="newsletter-form mb-3" id="newsletterForm">
+          <label for="emailInput" class="form-label newsletter-label">Email Address</label>
+          <input type="email" class="form-control newsletter-input mb-2" id="emailInput" placeholder="Email Address" required />
+          <button type="submit" class="btn newsletter-btn w-100">Subscribe for Newsletter</button>
+        </form>
+        <div class="footer-payment-badges d-flex align-items-center gap-3 flex-wrap">
+          <span class="badge-item fw-bold text-primary"><img src="images/stripe.png" alt=""></span>
+          <span class="badge-item fw-bold text-dark" style="font-size: 11px;"><img src="images/bank.png" alt=""></span>
+          <span class="badge-item fw-bold text-warning"><img src="images/cloud.png" alt=""></span>
+          <span class="badge-item fw-bold text-warning"><img src="images/design.png" alt=""></span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Divider & Copyright -->
+    <hr class="footer-divider my-4">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p class="footer-copyright mb-0">&copy; Copyright 2028, All Rights Reserved by ITIRR</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Flatpickr JS -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<script src="header.js"></script>
+</body>
+</html>

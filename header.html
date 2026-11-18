@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Trad:wght@100..400&display=swap" rel="stylesheet">
+    <title>header
+    </title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="maincontent">
+
+            <!-- ✅ Naya: Hamburger + Logo ek group mein -->
+            <div class="left-group">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mycanvas" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="logo">
+                    <img src="images/logo.png" alt="iTIRR Logo">
+                </div>
+            </div>
+
+            <div class="content">
+                <!-- Desktop Navbar (sirf nav links, hamburger yahan se hat gaya) -->
+                <div class="navbar">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                                <!-- Cars Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Cars</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Mainstream / Everyday Cars</h6><ul>
+                                                <li><a href="#">Nissan</a></li><li><a href="#">Ford</a></li><li><a href="#">Hyundai</a></li><li><a href="#">Toyota</a></li><li><a href="#">Kia</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Premium / Upper-Mid Range</h6><ul>
+                                                <li><a href="#">Tesla Motors</a></li><li><a href="#">Volkswagen</a></li><li><a href="#">Honda</a></li><li><a href="#">Subaru</a></li><li><a href="#">Mazda</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Luxury</h6><ul>
+                                                <li><a href="#">BMW</a></li><li><a href="#">Mercedes-Benz</a></li><li><a href="#">Lexus</a></li><li><a href="#">Audi</a></li><li><a href="#">Jaguar</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>High-Performance / Exotic</h6><ul>
+                                                <li><a href="#">Porsche</a></li><li><a href="#">Ferrari</a></li><li><a href="#">Jeep</a></li><li><a href="#">Chevrolet</a></li><li><a href="#">Peugeot</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Yachts Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Yachts</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Compact</h6><ul>
+                                                <li><a href="#">Sea-Doo</a></li><li><a href="#">Ocean Cruiser</a></li><li><a href="#">Wave Runner</a></li><li><a href="#">Harbor Master</a></li><li><a href="#">Nautical Voyager</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Sailboat</h6><ul>
+                                                <li><a href="#">Sunseeker</a></li><li><a href="#">Keyliner</a></li><li><a href="#">Riviera</a></li><li><a href="#">Catalina</a></li><li><a href="#">Cobalt</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Fishing Boat</h6><ul>
+                                                <li><a href="#">Tracker</a></li><li><a href="#">Lund</a></li><li><a href="#">Grady-White</a></li><li><a href="#">Boston Whaler</a></li><li><a href="#">Regulator</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Luxury Yacht</h6><ul>
+                                                <li><a href="#">Azimut</a></li><li><a href="#">Sunseeker</a></li><li><a href="#">Princess</a></li><li><a href="#">Feadship</a></li><li><a href="#">Sanlorenzo</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Jets Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Jets</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Light</h6><ul>
+                                                <li><a href="#">Cessna Aircraft</a></li><li><a href="#">Cessna Tourism</a></li><li><a href="#">Embraer Phenom</a></li><li><a href="#">Honda Aircraft</a></li><li><a href="#">Pilatus</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Mid</h6><ul>
+                                                <li><a href="#">Cessna</a></li><li><a href="#">Embraer</a></li><li><a href="#">Beechcraft</a></li><li><a href="#">Bombardier Learjet</a></li><li><a href="#">Gulfstream G280</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Super</h6><ul>
+                                                <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Challenger</a></li><li><a href="#">Dassault Aviation</a></li><li><a href="#">Embraer Praetor</a></li><li><a href="#">Cessna Citation</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Large</h6><ul>
+                                                <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Global</a></li><li><a href="#">Dassault Falcon</a></li><li><a href="#">Airbus Corporate</a></li><li><a href="#">Boeing Business</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Destinations Mega Menu -->
+                                <li class="nav-item has-mega">
+                                    <a class="nav-link" href="#">Destinations</a>
+                                    <div class="mega-menu">
+                                        <div class="mega-inner">
+                                            <div class="mega-col"><h6>Europe</h6><ul>
+                                                <li><a href="#">Paris, France</a></li><li><a href="#">London, UK</a></li><li><a href="#">Monaco</a></li><li><a href="#">Rome, Italy</a></li><li><a href="#">Barcelona, Spain</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Middle East &amp; Asia</h6><ul>
+                                                <li><a href="#">Dubai, UAE</a></li><li><a href="#">Abu Dhabi, UAE</a></li><li><a href="#">Singapore</a></li><li><a href="#">Tokyo, Japan</a></li><li><a href="#">Bali, Indonesia</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Americas</h6><ul>
+                                                <li><a href="#">New York, USA</a></li><li><a href="#">Miami, USA</a></li><li><a href="#">Los Angeles, USA</a></li><li><a href="#">Cancun, Mexico</a></li><li><a href="#">Rio de Janeiro</a></li>
+                                            </ul></div>
+                                            <div class="mega-col"><h6>Exotic &amp; Islands</h6><ul>
+                                                <li><a href="#">Maldives</a></li><li><a href="#">Santorini</a></li><li><a href="#">Swiss Alps</a></li><li><a href="#">Fiji Islands</a></li><li><a href="#">Seychelles</a></li>
+                                            </ul></div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+                <!-- Mobile Offcanvas Menu (mega menu content ke saath) -->
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="mycanvas">
+                    <div class="offcanvas-header">
+                        <img src="images/logo.png" alt="" class="offcanvas-title">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Cars</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Mainstream / Everyday Cars</h6><ul>
+                                            <li><a href="#">Nissan</a></li><li><a href="#">Ford</a></li><li><a href="#">Hyundai</a></li><li><a href="#">Toyota</a></li><li><a href="#">Kia</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Premium / Upper-Mid Range</h6><ul>
+                                            <li><a href="#">Tesla Motors</a></li><li><a href="#">Volkswagen</a></li><li><a href="#">Honda</a></li><li><a href="#">Subaru</a></li><li><a href="#">Mazda</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Luxury</h6><ul>
+                                            <li><a href="#">BMW</a></li><li><a href="#">Mercedes-Benz</a></li><li><a href="#">Lexus</a></li><li><a href="#">Audi</a></li><li><a href="#">Jaguar</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>High-Performance / Exotic</h6><ul>
+                                            <li><a href="#">Porsche</a></li><li><a href="#">Ferrari</a></li><li><a href="#">Jeep</a></li><li><a href="#">Chevrolet</a></li><li><a href="#">Peugeot</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Yachts</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Compact</h6><ul>
+                                            <li><a href="#">Sea-Doo</a></li><li><a href="#">Ocean Cruiser</a></li><li><a href="#">Wave Runner</a></li><li><a href="#">Harbor Master</a></li><li><a href="#">Nautical Voyager</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Sailboat</h6><ul>
+                                            <li><a href="#">Sunseeker</a></li><li><a href="#">Keyliner</a></li><li><a href="#">Riviera</a></li><li><a href="#">Catalina</a></li><li><a href="#">Cobalt</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Fishing Boat</h6><ul>
+                                            <li><a href="#">Tracker</a></li><li><a href="#">Lund</a></li><li><a href="#">Grady-White</a></li><li><a href="#">Boston Whaler</a></li><li><a href="#">Regulator</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Luxury Yacht</h6><ul>
+                                            <li><a href="#">Azimut</a></li><li><a href="#">Sunseeker</a></li><li><a href="#">Princess</a></li><li><a href="#">Feadship</a></li><li><a href="#">Sanlorenzo</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Jets</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Light</h6><ul>
+                                            <li><a href="#">Cessna Aircraft</a></li><li><a href="#">Cessna Tourism</a></li><li><a href="#">Embraer Phenom</a></li><li><a href="#">Honda Aircraft</a></li><li><a href="#">Pilatus</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Mid</h6><ul>
+                                            <li><a href="#">Cessna</a></li><li><a href="#">Embraer</a></li><li><a href="#">Beechcraft</a></li><li><a href="#">Bombardier Learjet</a></li><li><a href="#">Gulfstream G280</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Super</h6><ul>
+                                            <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Challenger</a></li><li><a href="#">Dassault Aviation</a></li><li><a href="#">Embraer Praetor</a></li><li><a href="#">Cessna Citation</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Large</h6><ul>
+                                            <li><a href="#">Gulfstream</a></li><li><a href="#">Bombardier Global</a></li><li><a href="#">Dassault Falcon</a></li><li><a href="#">Airbus Corporate</a></li><li><a href="#">Boeing Business</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item has-mega">
+                                <a class="nav-link" href="#">Destinations</a>
+                                <div class="mega-menu">
+                                    <div class="mega-inner">
+                                        <div class="mega-col"><h6>Europe</h6><ul>
+                                            <li><a href="#">Paris, France</a></li><li><a href="#">London, UK</a></li><li><a href="#">Monaco</a></li><li><a href="#">Rome, Italy</a></li><li><a href="#">Barcelona, Spain</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Middle East &amp; Asia</h6><ul>
+                                            <li><a href="#">Dubai, UAE</a></li><li><a href="#">Abu Dhabi, UAE</a></li><li><a href="#">Singapore</a></li><li><a href="#">Tokyo, Japan</a></li><li><a href="#">Bali, Indonesia</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Americas</h6><ul>
+                                            <li><a href="#">New York, USA</a></li><li><a href="#">Miami, USA</a></li><li><a href="#">Los Angeles, USA</a></li><li><a href="#">Cancun, Mexico</a></li><li><a href="#">Rio de Janeiro</a></li>
+                                        </ul></div>
+                                        <div class="mega-col"><h6>Exotic &amp; Islands</h6><ul>
+                                            <li><a href="#">Maldives</a></li><li><a href="#">Santorini</a></li><li><a href="#">Swiss Alps</a></li><li><a href="#">Fiji Islands</a></li><li><a href="#">Seychelles</a></li>
+                                        </ul></div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Vertical Divider -->
+                <div class="solid-rectangle"></div>
+
+                <!-- Partner Button -->
+                <a href="#" class="btn-partner">Become a Partner</a>
+
+                <!-- User Profile Dropdown -->
+                <div class="user-profile" id="userProfile">
+                    <img src="images/sideimg.png" class="user-image" id="userImg" alt="User">
+                    <span class="user-name" id="userName">William Gabriel</span>
+                    <span class="dropdown-arrow"><i class="fa-solid fa-angle-down"></i></span>
+
+                    <div class="user-dropdown" id="userDropdown">
+                        <a href="#" data-name="William Gabriel" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> William Gabriel
+                        </a>
+                        <a href="#" data-name="Ahmed Khan" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> Ahmed Khan
+                        </a>
+                        <a href="#" data-name="Sara Ali" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> Sara Ali
+                        </a>
+                        <a href="#" data-name="John Doe" data-img="images/sideimg.png">
+                            <img src="images/sideimg.png" class="dd-img"> John Doe
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.min.js" integrity="sha384-89aa4glufciPv46aKltztWQEmk+Tu9W2RhzXr6VcnUUEub7F8+06RcL2RYLCOHUq" crossorigin="anonymous"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const userProfile  = document.getElementById('userProfile');
+    const userDropdown = document.getElementById('userDropdown');
+    const userImg      = document.getElementById('userImg');
+    const userName     = document.getElementById('userName');
+    const hiddenSelect = document.getElementById('hiddenSelect');
+    const items        = document.querySelectorAll('.user-dropdown a');
+
+    // Dropdown open/close
+    userProfile.addEventListener('click', function (e) {
+        e.stopPropagation();
+        userDropdown.classList.toggle('show');
+        userProfile.classList.toggle('active');
+    });
+
+    // Bahar click karne par band
+    document.addEventListener('click', function (e) {
+        if (!userProfile.contains(e.target)) {
+            userDropdown.classList.remove('show');
+            userProfile.classList.remove('active');
+        }
+    });
+
+    // Item select → img + name + hidden select update
+    items.forEach(function (item) {
+        item.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const newName = this.getAttribute('data-name');
+            const newImg  = this.getAttribute('data-img');
+
+            userName.textContent = newName;   // ← Naam change
+            userImg.src = newImg;             // ← Photo change
+
+            // Hidden select ki value bhi update (form ke liye)
+            if (hiddenSelect) {
+                hiddenSelect.value = newName.toLowerCase().replace(/\s+/g, '');
+            }
+
+            userDropdown.classList.remove('show');
+            userProfile.classList.remove('active');
+        });
+    });
+});
+</script>
+</html>
